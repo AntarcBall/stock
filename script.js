@@ -30,7 +30,7 @@ function shift(){
         change = intRand(-10,10);
         var p = stockList[i][time] + change
         stockList[i].push(p);
-        if (time > 10) {
+        if (time > 55) {
             for (k in stockList)
                 {stockList[k].shift();}
             time --;
